@@ -1,0 +1,90 @@
+CREATE TABLE name
+(
+    nconst varchar(10) not null,
+    primaryName text not null,
+    birthYear varchar(4) not null,
+    deathYear varchar(4) not null,
+    primaryProfession text not null,
+    knownForTitles text not null,
+    primary key(nconst)
+);
+CREATE TABLE akas
+(
+    titleId varchar not null,
+    ordering Integer not null,
+    title varchar not null,
+    region varchar not null,
+    language varchar not null,
+    types text not null,
+    attributes text not null,
+    isOriginalTitle Integer not null,
+    primary key(titleId)
+);
+CREATE TABLE basics
+(
+    tconst varchar not null,
+    titleType varchar not null,
+    primaryTitle  varchar not null,
+    originalTitle varchar not null,
+    isAdult Integer not null,
+    startYear varchar(4) not null,
+    endYear varchar(4) not null,
+    runtimeMinutes Integer not null,
+    genres text not null,
+    primary key(tconst)
+);
+CREATE TABLE crew
+(
+    tconst varchar not null,
+    directors text not null,
+    writers text not null,
+    primary key(tconst)
+);
+CREATE TABLE episode
+(
+    tconst varchar not null,
+    parentTconst varchar not null,
+    seasonNumber Integer not null,
+    episodeNumber Integer not null,
+    primary key(tconst)
+);
+CREATE TABLE ratings
+(
+    tconst varchar not null,
+    averageRating real not null,
+    numVotes Integer not null,
+    primary key(tconst)
+);
+CREATE TABLE principals
+(
+    tconst varchar not null,
+    ordering Integer not null,
+    nconst varchar not null,
+    category varchar not null,
+    job varchar not null,
+    characters varchar not null
+);
+CREATE TABLE profession_lifespan
+(
+    nconst varchar(10) not null,
+    profession text not null,
+    lifespan Integer not null,
+    foreign key(nconst) references name(nconst)
+);
+CREATE TABLE genres
+(
+    tconst varchar not null,
+    genre varchar not null,
+    foreign key(tconst) references basics(tconst)
+);
+CREATE TABLE title
+(
+    nconst varchar not null,
+    primaryName text not null,
+    title text not null
+);
+CREATE TABLE title_span
+(
+    tconst varchar not null,
+    span Integer not null
+);

@@ -1,0 +1,27 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+
+/target
+
+/labs/l1/.idea/*
+*.xml
+/lectures
+/labs/l2-names
+*.csv
+
+# PDF file
+Online_Exam_Rules(JI)-SU21.pdf
+Pledge of Honor（JI）.pdf
+s.pdf
+SJTU Examination Rules.pdf
+
+# Zip
+*.zip
+*.bz2
+

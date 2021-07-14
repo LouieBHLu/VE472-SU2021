@@ -1,0 +1,11 @@
+/home/hadoop/Desktop/VE472/homework/h2/filecrush-master/src/main/java/com/m6d/filecrush/crush/Crush.java
+/home/hadoop/Desktop/VE472/homework/h2/filecrush-master/src/main/java/com/m6d/filecrush/crush/FileStatusHasSize.java
+/home/hadoop/Desktop/VE472/homework/h2/filecrush-master/src/main/java/com/m6d/filecrush/crush/CrushPartitioner.java
+/home/hadoop/Desktop/VE472/homework/h2/filecrush-master/src/main/java/com/m6d/filecrush/clean/Clean.java
+/home/hadoop/Desktop/VE472/homework/h2/filecrush-master/src/main/java/com/m6d/filecrush/crush/CountersInputFormat.java
+/home/hadoop/Desktop/VE472/homework/h2/filecrush-master/src/main/java/com/m6d/filecrush/crush/ReducerCounter.java
+/home/hadoop/Desktop/VE472/homework/h2/filecrush-master/src/main/java/com/m6d/filecrush/crush/KeyValuePreservingTextInputFormat.java
+/home/hadoop/Desktop/VE472/homework/h2/filecrush-master/src/main/java/com/m6d/filecrush/crush/CountersMapper.java
+/home/hadoop/Desktop/VE472/homework/h2/filecrush-master/src/main/java/com/m6d/filecrush/crush/Bucketer.java
+/home/hadoop/Desktop/VE472/homework/h2/filecrush-master/src/main/java/com/m6d/filecrush/crush/CrushReducer.java
+/home/hadoop/Desktop/VE472/homework/h2/filecrush-master/src/main/java/com/m6d/filecrush/crush/MapperCounter.java
