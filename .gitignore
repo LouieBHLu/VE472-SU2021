@@ -10,9 +10,12 @@
 /target
 
 /labs/l1/.idea/*
+/labs/l2-names
+/labs/l6/hadoop-cluster
+/labs/l6/flight_data
 *.xml
 /lectures
-/labs/l2-names
+
 *.csv
 
 # PDF file
