@@ -31,3 +31,7 @@ SJTU Examination Rules.pdf
 Final CC.pdf
 /labs/l7/dataset
 
+_SUCCESS
+._SUCCESS.crc
+.part*
+__pycache__

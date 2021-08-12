@@ -1,0 +1,13 @@
+name: compact
+channels:
+  - anaconda
+  - defaults
+  - bioconda
+dependencies:
+  - glob2
+  - python=3.7
+  - numpy
+  - pytables
+  - pip
+  - pip:
+    - PyGreSQL
