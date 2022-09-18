@@ -1,3 +1,4 @@
+## Million Song Project - Course Project of VE472 Summer 2021
 This folder just contain all scripts, but no subsets.
 
 If you want to reproduce our result, go to the cluster's directory /home/pgroup1/project/bin, and run:
